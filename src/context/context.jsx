@@ -1,4 +1,4 @@
-import { createContext, useState } from "react";
+import React, { createContext, useState } from "react";
 import runChat from "../config/nextgpt";
 
 export const Context = createContext();
